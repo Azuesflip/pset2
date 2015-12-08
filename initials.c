@@ -10,7 +10,7 @@ int main(void)
     string name = GetString();
     
     if(name != NULL)
-    {git remote add origin https://github.com/Azuesflip/pset2.git
+    {
         printf("%c", toupper(name[0]));
         
         for( int i = 0; i < strlen(name); i++)
